@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fowkeio/secjobs/router/router.go"
+	"github.com/fowkeio/secjobs/router"
 )
 
 func main() {
