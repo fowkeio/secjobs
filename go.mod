@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/gin-gonic/gin v1.9.1
+	gorm.io/driver/sqlite v1.5.2
 	gorm.io/gorm v1.25.3
 )
 
@@ -36,5 +37,4 @@ require (
 	golang.org/x/text v0.12.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/driver/sqlite v1.5.2 // indirect
 )
