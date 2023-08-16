@@ -1,7 +1,7 @@
 package router
 
 import (
-	docs "github.com/fowkeio/docs"
+	docs "github.com/fowkeio/secjobs/docs"
 	"github.com/fowkeio/secjobs/handler"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
