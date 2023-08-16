@@ -15,7 +15,7 @@ build:
 	@go build -o $(APP_NAME) main.go
 
 test:
-	@go test ./ ...
+	@go test ./...
 
 docs: 
 	@swag init
