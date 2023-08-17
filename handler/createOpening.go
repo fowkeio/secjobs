@@ -9,17 +9,16 @@ import (
 
 //	@BasePath	/ap1/v1
 
-//	@Summary		Create opening
-//	@Description	Create a new secjob opening
-//	@Tags			Openings
-//	@Accept			json
-//	@Produce		json
-//	@Param			request	body		CreateOpeningRequest	true	"Request Body"
-//	@Success		200		{object}	CreateOpeningResponse
-//	@Failure		400		{object}	ErrorResponse
-//	@Failure		500		{object}	ErrorResponse
-//	@Router			/opening [post]
-
+// @Summary		Create opening
+// @Description	Create a new secjob opening
+// @Tags			Openings
+// @Accept			json
+// @Produce		json
+// @Param			request	body		CreateOpeningRequest	true	"Request Body"
+// @Success		200		{object}	CreateOpeningResponse
+// @Failure		400		{object}	ErrorResponse
+// @Failure		500		{object}	ErrorResponse
+// @Router			/opening [post]
 func CreateOpeningHandler(ctx *gin.Context) {
 	request := CreateOpeningRequest{}
 
