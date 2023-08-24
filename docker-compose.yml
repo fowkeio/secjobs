@@ -1,0 +1,10 @@
+version: '0.1'
+
+services:
+  api:
+    build: .
+    image: secjobs-api:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - GIN_MODE=release
